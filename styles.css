@@ -1,0 +1,132 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* Typography */
+body {
+  margin: 0;
+  font-family: 'Montserrat', serif;
+  font-size: 1.125rem;
+}
+h1, h2 {
+  font-family: 'Saira SemiCondensed', sans-serif;
+}
+h3 {
+  font-size: 1.33rem;
+  color: #4A5568;
+}
+h4 {
+  font-weight: bold;
+}
+
+/* general style */
+img {
+  max-width: 100%;
+  display: block;
+}
+li {
+  list-style: none;
+}
+a {
+ text-decoration: none;
+ color: inherit;
+}
+
+/* navigation style */
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list1 {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.nav-list2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* main section */
+newSkates {
+  display: flex;
+  justify-content: center;
+}
+.subheading {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  width: 100%;
+  column-gap: 1rem;
+  margin: 1rem;
+}
+.gallery-item {
+  margin: 1rem;
+  padding: 1.11rem;
+}
+/* subscribe email section */
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2.77rem 3.33rem;
+}
+.join h2, p {
+  align-self: center;
+  margin-top: 0.25rem;
+}
+.join h2 {
+  margin-bottom: 0.5rem;
+}
+.joinEmail {
+  align-self: center;
+}
+button {
+  font-family: 'Montserrat', serif;
+  color: white;
+  background-color: #FEB2B2;
+  stroke: #CBD5E0;
+  border-color: #cbd5e0;
+  border-style: solid;
+  border-width: 0.05rem;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+}
+button:hover, button:focus {
+    background-color: #F98C8C;
+  }
+  .joinEmail input {
+    border-width: 0.05rem;
+    padding: 0.5rem;
+    border-color: #cbd5e0;
+  }
+/* footer style */
+footer {
+  background-color: #F5C4C4;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.33rem 3.33rem;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+
+}
+.social-links li {
+  align-items: center;
+  margin-right: 1rem;
+}
+footer h4 {
+  margin-left: 2rem;
+  
+}
