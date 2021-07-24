@@ -20,6 +20,9 @@ h4 {
 }
 
 /* general style */
+.frame {
+  padding: 2rem;
+}
 img {
   max-width: 100%;
   display: block;
@@ -52,9 +55,8 @@ a {
 }
 
 /* main section */
-newSkates {
-  display: flex;
-  justify-content: center;
+.newSkates {
+  margin: 0 auto;
 }
 .subheading {
   display: flex;
